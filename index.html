@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TASKER</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Afacad+Flux:wght@100..1000&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+    <header>
+        <!-- NAVIGATION BAR -->
+        <div class="navbar">
+            <!-- logo icon -->
+            <div class="logo border">
+                <img src="logotasker.png" />
+            </div>
+            <!-- search bar -->
+            <div class="searchbar border">
+                <i class="fa-solid fa-magnifying-glass"></i>
+                <input placeholder="Search" class="search"/>
+            </div>
+            <!-- notif icon -->
+            <div class="notif border">
+                <i class="fa-regular fa-bell"></i>
+            </div>
+            <!-- setting icon -->
+            <div class="setting border">
+                <i class="bi bi-gear"></i>
+            </div>
+            <!-- bright theme -->
+            <div class="bright ">
+                <i class="bi bi-brightness-high"></i>
+            </div>
+            <!-- dark theme -->
+            <div class="dark border">
+                <i class="fa-regular fa-moon"></i>
+            </div>
+            <!-- profile pic -->
+            <div class="pp">
+                <img src="darina.png" style="background-size: cover; height:40px;width:50px" />
+            </div>
+            <!-- name and designation -->
+            <div class="accountname border">
+                <p>
+                <h4>Darina</h4>
+                <h6>UI/UX designer</h6>
+                </p>
+            </div>
+        </div>
+    </header>
+    <main>
+        <div class="maincontent">
+            <!-- menu section -->
+            <div class="menu">
+                <div class="welcometxt">Welcome to the Tasker System!</div>
+                <div class="menu-icons">
+                    <div class="dashboard border">
+                        <i class="bi bi-house"></i>
+                        Dashboard
+                    </div>
+                    <div class="messages border">
+                        <i class="bi bi-chat-dots"></i>
+                        Messages
+                        <div class="numof">+4</div>
+                    </div>
+                    <div class="tasks border">
+                        <i class="fa-solid fa-list-check"></i>
+                        My Tasks
+                        <div class="numof">+1</div>
+                    </div>
+                    <div class="friends border">
+                        <i class="bi bi-people"></i>
+                        Friends
+                    </div>
+                    <div class="calendar border">
+                        <i class="bi bi-calendar-date"></i>
+                        Calendar
+                    </div>
+                </div>
+                <div class="people ">
+                    <div class="p1 border">
+                    </div>
+                    <div class="p2 border">
+                        <div class="maxim"></div>
+                    </div>
+                    <div class="p3 border">
+                    </div>
+                    <div class="p4 border">
+                    </div>
+                    <div class="p5 border">+10</div>
+                </div>
+                <div class="person2-chat border">
+                    <div class="p2name border">Maxim
+                        <div class="pm">(PM)</div>
+                    </div>
+                    <hr>
+                    </hr>
+                    <p class="chat1 border">Hi,Darina ✌️
+                    <div class="chattime1">12.07</div>
+                    </p>
+                    <p class="chat2 border">Please tell me, do you have a minute to ring the bell?)
+                    <div class="chattime2">12.07</div>
+                    </p>
+                    <div class="doubletick border">Yes, ofcourse,let's go!)
+                        <div class="doubletickpic"></div>
+                        <div class="chattime3">12.12</div>
+                    </div>
+                    <div class="typing">
+                        <div class="chatdp"></div>
+                        <div class="typingspace border"></div>
+                        <div class="sendicon border">
+                            <i class="fa-solid fa-paper-plane"></i>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+            <div class="contentpart">
+                <!-- activity section -->
+                <div class="activity">
+                    <h3 class="act">Activity</h3>
+                    <div class="week">Week</div>
+                    <div class="month border">Month</div>
+                    <div class="bar1 border"></div>
+                    <div class="t1">02.08</div>
+                    <div class="bar2 border"></div>
+                    <div class="t2">03.08</div>
+                    <div class="bar3 border"></div>
+                    <div class="t3">04.08</div>
+                    <div class="time3">9h 20m</div>
+                    <hr class="new">
+                    <div class="bar4 border"></div>
+                    <div class="t4">05.08</div>
+                    <div class="time4"> Day off</div>
+                    <div class="bar5 border"></div>
+                    <div class="t5">06.08</div>
+                    <div class="bar6 border"></div>
+                    <div class="t6">07.08</div>
+                    <div class="bar7 border"></div>
+                    <div class="t7">08.08</div>
+                    <div class="time7">Day off</div>
+                </div>
+                <!-- schedule section -->
+                <div class="schedule">
+                    <h3 class="myschedule">My schedule</h3>
+                    <div class="mon">Mon
+                        <div class="box">
+                            <div class="gm1 border">GreenMarket</div>
+                            <div class="ep1 border">EduPath</div>
+                        </div>
+                    </div>
+                    <br>
+                    <div class="tue">Tue
+                    <div class="box">
+                            <div class="gm2 border">GreenMarket</div>
+                            <div class="ep2 border">EduPath</div>
+                        </div>
+                    </div>
+                    <br>
+                    <div class="wed">Wed
+                        <div class="box">
+                            <div class="ep3 border">EduPath</div>
+                            <div class="gm3 border">GreenMarket</div>
+                        </div>
+                    </div>
+                    <br>
+                    <div class="thu">Thu
+                        <div class="box">
+                            <div class="tt border">TravelTales</div>
+                        </div>
+                    </div>
+                    <br>
+                    <div class="fri">Fri
+                        <div class="box">
+                            <div class="gm4 border">GreenMarket</div>
+                            <div class="ep4 border">EduPath</div>
+                        </div>
+                    </div>
+                    <br>
+                    <div class="timings">
+                        <div class="T1">10.00</div>
+                        <div class="T2">12.00</div>
+                        <div class="T3">14.00</div>
+                        <div class="T4">16.00</div>
+                        <div class="T5">18.00</div>
+                    </div>
+                </div>
+                <!-- taskboard -->
+                <div class="taskboard">
+                    <h3 class="tb">Task Board</h3>
+                    <div class="alltask border">All Task</div>
+                    <!-- edupath section -->
+                    <div class="edupath">
+                        <h3 class="ep-heading">Edupath</h3>
+                        <div class="design border">Design</div>
+                        <p class="text">Platform for online learning and professional development</p>
+                        <hr class="line">
+                        <div class="logintime border">
+                            <i class="fa-solid fa-stopwatch"></i>
+                            <p>Log:13h 20m</p>
+                        </div>
+                    </div>
+                    <!-- greenmarket section -->
+                    <div class="greenmarket">
+                        <h3 class="gm-heading">GreenMarket</h3>
+                        <div class="concept border">Concept</div>
+                        <p class="text">Eco-friendly online grocery and household goods store.</p>
+                        <hr class="line">
+                        <div class="logintime border">
+                            <i class="fa-solid fa-stopwatch"></i>
+                            <p>Log:8h 20m</p>
+                        </div>
+                    </div>
+                    <!-- traveltales section -->
+                    <div class="traveltales">
+                        <h3 class="tt-heading">TravelTales</h3>
+                        <div class="Re-design border">Re-design</div>
+                        <p class="text">A social network for travelers to share stories and plan trips.</p>
+                        <hr class="line">
+                        <div class="logintime border">
+                            <i class="fa-solid fa-stopwatch"></i>
+                            <p>Log:80h 20m</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </main>
+</body>
+
+</html>
